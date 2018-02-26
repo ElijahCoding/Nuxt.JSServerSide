@@ -16,3 +16,14 @@
     }
   }
 </script>
+
+
+<style lang="scss">
+  .post {
+    margin-bottom: 40px;
+
+    &__title {
+      font-size: 3em;
+    }
+  }
+</style>
