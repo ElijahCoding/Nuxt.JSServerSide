@@ -1,9 +1,12 @@
 <template>
-  <p>{{ posts }}</p>
+  <div>
+    <post v-for="post in posts" :key="post.id" :post="post"></post>
+  </div>
 </template>
 
 <script>
   import axios from 'axios'
+  import Post from '@/components/Post'
 
   export default {
     data () {
@@ -11,6 +14,11 @@
         posts: []
       }
     },
+
+    components: {
+      Post
+    },
+
     // mounted () {
     //     axios.get('https://jsonplaceholder.typicode.com/posts')
     //       .then((response) => {
