@@ -1,7 +1,7 @@
 <template>
   <div class="post">
-      <h1>
-        {{ post.title }}
+      <h1 class="post__title">
+        <nuxt-link :to="{ name: 'posts-id', params: { id: post.id } }">{{ post.title }}</nuxt-link>
       </h1>
 
       <p>{{ post.body }}</p>
