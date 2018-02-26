@@ -15,6 +15,10 @@
       }
     },
 
+    head: {
+      title: 'Posts'
+    },
+
     components: {
       Post
     },
