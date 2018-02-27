@@ -18,7 +18,8 @@
     "nuxt": "^1.0.0",
     "pluralize": "^7.0.0",
     "sass-loader": "^6.0.6",
-    "vue-scrollto": "^2.9.0"
+    "vue-scrollto": "^2.9.0",
+    "vue-select": "^2.4.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
