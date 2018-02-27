@@ -16,7 +16,8 @@ module.exports = {
   },
 
   plugins: [
-    '@/plugins/mixins/pluralize'
+    '@/plugins/mixins/pluralize',
+    '@/plugins/scrollTo'
   ],
 
   /*
