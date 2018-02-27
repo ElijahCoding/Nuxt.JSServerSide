@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <post :post="post" :key="post.id"></post>
   </div>
 </template>

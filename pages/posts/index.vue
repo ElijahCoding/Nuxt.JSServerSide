@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <post v-for="post in posts" :key="post.id" :post="post"></post>
   </div>
 </template>
@@ -14,6 +14,8 @@
         posts: []
       }
     },
+
+    layout: 'posts', 
 
     head: {
       title: 'Posts'
