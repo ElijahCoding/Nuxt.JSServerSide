@@ -14,6 +14,11 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' }
     ]
   },
+
+  plugins: [
+    '@/plugins/mixins/pluralize'
+  ],
+
   /*
   ** Customize the progress bar color
   */

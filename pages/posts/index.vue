@@ -1,5 +1,8 @@
 <template>
   <div class="container">
+    <h3>
+      {{ posts.length }} {{ pluralize('post', posts.length) }}
+    </h3>
     <post v-for="post in posts" :key="post.id" :post="post"></post>
   </div>
 </template>
@@ -8,6 +11,7 @@
   import axios from 'axios'
   import Post from '@/components/Post'
 
+
   export default {
     data () {
       return {
@@ -15,7 +19,7 @@
       }
     },
 
-    layout: 'posts', 
+    layout: 'posts',
 
     head: {
       title: 'Posts'
